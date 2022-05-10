@@ -1,4 +1,4 @@
-//Java Program, the sort a array of strings, and get the first and last word within the array of string.
+//Write a Java program to sort an array of strings, and get the first and last string within that array of strings.
 
  import java.util.*;
 
