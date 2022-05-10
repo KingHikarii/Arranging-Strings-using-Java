@@ -1,7 +1,4 @@
- //Create a Java application in which a user types in some words and names.
- //Then you take those inputs(names or words) sort them according to the first letter
- //And you sort them into an array that is according to a specific letter type.
- //Then make it so that if the user calls that container or array, it displays everything in that array.
+//Java Program, the sort a array of strings, and get the first and last word within the array of string.
 
  import java.util.*;
 
@@ -26,9 +23,9 @@
 		//for(i = 0;i<arrayOfStrings.length;i++)
 		while (arrayOfStrings.length > i) {
 
-			insertedWord = input.nextLine();
+			//insertedWord = input.nextLine();
 			System.out.println(i + "." + "Please enter a keyword: ");
-			arrayOfStrings[i] = insertedWord;
+			arrayOfStrings[i] = input.nextLine();
 			if (i == arrayOfStrings.length) {
 				break;
 			} else {
